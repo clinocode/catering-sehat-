@@ -1137,6 +1137,7 @@ background-color: #AA4040;
     width: 500px;
     background-color: #F0E3D6;
     padding: 30px 50px;
+    padding-bottom: 10px;
     border-radius: 10px;
     border: 2px solid #FFFFFF;
 }
@@ -1152,6 +1153,123 @@ background-color: #AA4040;
 .login-page .button-login {
     text-align: center;
 }
+
+
+.registerakun {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.registerakun p {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.registerakun p a {
+    text-decoration: none;
+    color: #036333;
+    font-weight: 400;
+}
+
+.registerakun p a:hover {
+    font-weight: 600;
+}
+
+
+
+.detail-menu-prasmanan {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    background-color: #FDECDC;
+}
+
+.detail-menu-prasmanan .paket-menu .row {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-menu-prasmanan .paket-menu h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.detail-menu-prasmanan .paket-menu p {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.detail-menu-prasmanan .paket-menu .row .card img {
+    width: 500px;
+    height: 100px;
+    background-size: cover;
+}
+
+.detail-menu-prasmanan .paket-menu .row .card {
+    background-color: #FFFAF2;
+}
+
+
+
+.detail-menu-prasmanan .paket-menu .row .card h3 {
+    font-size: 22px;
+    background-image: url(img/background-menu-prass.svg);
+    height: 70px;
+    font-weight: 500;
+    padding: 25px 0;
+    color: white;
+}
+
+.detail-menu-prasmanan .paket-menu .row .card .card-body {
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 30px;
+}
+
+.detail-menu-prasmanan .paket-menu .row .card .card-title {
+    font-size: 25px;
+    font-weight: 500;
+    display: inline-block;
+    border-bottom: 2px solid #BB4444;
+    padding: 0 1.5rem;
+}
+
+.detail-menu-prasmanan .paket-menu .row .card .card-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.detail-menu-prasmanan .paket-menu .row .card .makanan-utama {
+    /* background-color: red; */
+    height: 300px;
+}
+
+.detail-menu-prasmanan .paket-menu .row .card .makanan-penutup {
+    /* background-color: red; */
+    height: 200px;
+}
+
+.detail-menu-prasmanan .paket-menu .row .card .minuman {
+    height: 200px;
+}
+
+.detail-menu-prasmanan .container .button-menusehat {
+    margin-top: 50px;
+   position: relative;
+   padding-bottom: 150px;
+}
+
+.detail-menu-prasmanan  .container .button-menusehat .selanjutnya {
+    position: absolute;
+    right: 0;
+    margin-right: 2%;
+}
+
+.detail-menu-prasmanan .container .kembali {
+    position: absolute;
+    left: 0;
+    margin-left: 2%;
+}
+   
 
 
 
@@ -1361,6 +1479,10 @@ background-color: #AA4040;
     .kontakkami .icon img {
         padding: 10px;
     }
+
+    /* .detail-menu-prasmanan .paket-menu .row .card .makanan-utama {
+        height: 380px;
+    } */
 }
 
 @media  screen and (max-width : 800px) {
@@ -1556,5 +1678,32 @@ background-color: #AA4040;
         padding: 0 10px 10px;
     }
 
+    .login-page .wrap .wrapper {
+        width: 350px;
+        padding:  10px 20px;
+    }
+
+    .login-page .wrap img {
+        width: 200px !important;
+    }
+
+
+    .detail-menu-prasmanan .paket-menu .row .card .makanan-utama {
+        height: 100%;
+    }
+
+    .detail-menu-prasmanan .paket-menu .row .card .makanan-penutup {
+        height: 100%;
+        margin-top: 50px;
+    }
+    
+    .detail-menu-prasmanan .paket-menu .row .card .minuman {
+        height: 100%;
+        margin-top: 50px;
+    }
+
+    .detail-menu-prasmanan .paket-menu .row .card .keterangan {
+        margin-top: 50px;
+    }
 
 }
